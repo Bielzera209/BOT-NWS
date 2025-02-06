@@ -4,16 +4,14 @@ const menu = (prefix, NomeDoBot, sender) => {
 //${numerodn} nem ${NomeDoBot} nem ${prefix} só se quiser apagar completo, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.  
   
 return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
-⎙*BEM VINDO A NANA*
+⎙*BEM VINDO AO CHEROKEE BOT 1.0*
 
-⬇️ App: Sinho Gamer MODS (Play Store)
-SEGUE INSTA: @botdefigurinhas
+⬇️ Site: https://newschool.app 💜🐿️
 
 ⎙ *FIGURINHAS*
 
 • ${prefix}s (marcar-foto)
 • ${prefix}f (marcar-foto)
-• ${prefix}pesquisafig (nome)
 • ${prefix}attp (texto)
 • ${prefix}attp2 (texto)
 • ${prefix}sticker (marcar-foto)
@@ -21,63 +19,34 @@ SEGUE INSTA: @botdefigurinhas
 • ${prefix}toimg (marcar-figu)
 • ${prefix}togif (marcar-figu)
 • ${prefix}rename (text/text)
-• ${prefix}figaleatoria
-• ${prefix}figurinhas (ex: 5)
-• ${prefix}figgatos
-• ${prefix}figemoji (ex: 5)
-• ${prefix}figroblox (ex: 5)
-• ${prefix}figmeme (ex: 5)
-• ${prefix}figanime (ex: 5)
-• ${prefix}figcoreana (ex: 5)
-• ${prefix}figraiva (ex: 5)
-• ${prefix}figengracada (ex: 5)
-• ${prefix}figdesenho (ex: 5)
-• ${prefix}fig (ex: 5)
-• ${prefix}emoji 😏/Whatsapp
-• ${prefix}emoji 😏/Apple
-• ${prefix}emoji 😏/openmoji
-• ${prefix}emojimix 😉+🙂
-• ${prefix}telegram (link do pacote de fig)
+• ${prefix}figgatos (fofin)
 
 
 ⎙*PESQUISAS/BAIXAR*
 
-• ${prefix}Play (NOME da música)
-• ${prefix}Playdoc (NOME)
-• ${prefix}Youtube (link do yt/short)
-• ${prefix}Short (Link do short)
-• ${prefix}Ytmp4 (LINK YT/Short) 
-• ${prefix}Ytmp3 (LINK YT/Short)
-• ${prefix}Ytsearch (NOME) 
+• ${prefix}Play (nome)
+• ${prefix}Playdoc (nome)
+• ${prefix}Youtube (link)
+• ${prefix}Short (link)
+• ${prefix}Ytmp4 (link) 
+• ${prefix}Ytmp3 (link)
+• ${prefix}Ytsearch (nome) 
 • ${prefix}tiktok (link)
 • ${prefix}instagram (link)
 • ${prefix}Reels (link do rell)
 • ${prefix}facebook (link)
 • ${prefix}twitter (link)
 • ${prefix}X (link) 
-• ${prefix}Soundcloud (LINK)
-• ${prefix}Spotify (LINK)
-• ${prefix}Spotify2 (LINK)
-• ${prefix}Threads (LINK)
-• ${prefix}Kwai (LINK)
-• ${prefix}letramusica (ex: Ela me traiu)
-• ${prefix}playstore (nome)
-• ${prefix}aptoide (LINK)
-• ${prefix}aptoide_pesquisa (Nome)
+• ${prefix}Soundcloud (link)
+• ${prefix}Spotify (link)
+• ${prefix}letramusica (nome da música)
+• ${prefix}playstore (newschool)
+• ${prefix}aptoide_pesquisa (newschool)
 • ${prefix}gerarlink (marcar)
-• ${prefix}amazon (exemplo: celular A13)
-• ${prefix}Gimage (NOME)
-• ${prefix}Imgpralink (MARCAR)
-• ${prefix}videopralink (MARCAR-V) 
-• ${prefix}Mediafire (LINK)
+• ${prefix}amazon (produto)
+• ${prefix}Imgpralink (marcar img)
+• ${prefix}videopralink (marcar video) 
 • ${prefix}Wallpapers
-• ${prefix}Wallpaper-animes
-• ${prefix}Fotosfake (para perfil)
-• ${prefix}Mod (Nome do Jogo/App)
-• ${prefix}Mods
-• ${prefix}Pack
-• ${prefix}Jogosmod
-• ${prefix}Appsmod
 
 
 ⎙*JOGOS/QUIZ*
@@ -88,11 +57,9 @@ SEGUE INSTA: @botdefigurinhas
 • ${prefix}tiro
 • ${prefix}falta
 • ${prefix}baterfalta
-• ${prefix}Roletarussa (Vai banir 1 incluindo BOT)
 • ${prefix}Morte
 • ${prefix}Simi (Oi) 
 • ${prefix}Nana (Oi) 
-• ${prefix}sistemgold
 • ${prefix}iniciar_forca
 • ${prefix}jogodavelha (@marcar)
 • ${prefix}Eununca
@@ -113,44 +80,35 @@ SEGUE INSTA: @botdefigurinhas
 • ${prefix}Atividade
 • ${prefix}Rankativo
 • ${prefix}Rankinativo
-• ${prefix}Checkativo (@MARCAR)
-• ${prefix}Celular (MODELO)
+• ${prefix}Checkativo (@marcar)
+• ${prefix}Celular (modelo)
 • ${prefix}Dolarhoje
 • ${prefix}Eurohoje
 • ${prefix}Converter (Dolar/Euro + valor)
 • ${prefix}Noticias
 • ${prefix}Manchetes
-• ${prefix}Clima (CIDADE SEM ACENTO)
-• ${prefix}Signo (NOME DO SIGNO)
+• ${prefix}Clima (cidade)
+• ${prefix}Signo
 • ${prefix}moedas
 
 
 ⎙*DIVERSOS MENUS*
 
-• ${prefix}Reportar (Marque a msg)
+• ${prefix}Reportar (marcar msg)
 • ${prefix}Menuadm
-• ${prefix}Menupremium
 • ${prefix}Efeitosimg
 • ${prefix}Logos
-• ${prefix}Brincadeiras
-• ${prefix}Mods
-• ${prefix}sfundo (MARQUE A FOTO)
-• ${prefix}Aplicativo
+• ${prefix}sfundo (marcar ft)
 • ${prefix}Noticias
-• ${prefix}Gtts (pt + TEXTO)
-• ${prefix}Falar (pt + TEXTO)
-• ${prefix}Transcrever (MARQUE O AUDIO/VIDEO)
-• ${prefix}Lerfoto (MARQUE A FOTO)
-• ${prefix}hidetag (marque algo) 
-• ${prefix}lerfoto (marcar foto)
-• ${prefix}Tabeladeletras (LETRAS) 
+• ${prefix}Gtts (pt + texto)
+• ${prefix}Falar (pt + texto)
+• ${prefix}Transcrever (marcar áudio/vídeo)
+• ${prefix}Lerfoto (marcar ft)
+• ${prefix}hidetag (marcar algo) 
 • ${prefix}Conselhobiblico
 • ${prefix}Perfil
 • ${prefix}Calcular 1 + 1
-• ${prefix}Fazernick (NICK)
 • ${prefix}Anotações
-• ${prefix}Bot
-• ${prefix}metadinha
 `;
 };
 
@@ -257,12 +215,8 @@ Usuário: @${sender.split("@")[0]}
 
 **Comandos de Configuração:**
 
-• ${prefix}Dononogrupo
-• ${prefix}Addgold
 • ${prefix}Limitecaracteres
 • ${prefix}Rgtm
-• ${prefix}Cmdpremium
-• ${prefix}Rg_aluguel
 • ${prefix}ListanegraG (número que saiu)
 • ${prefix}Bemvindo
 • ${prefix}Ativacoes_dono
@@ -272,10 +226,8 @@ Usuário: @${sender.split("@")[0]}
 • ${prefix}Listagp
 • ${prefix}Antiligar
 • ${prefix}Ausente (fale oq faz ou o que vai fazer)
-• ${prefix}Addpremium @(marca)/30d
 • ${prefix}Bloquear [@] (bloq de usar cmds) 
 • ${prefix}Prefixo-bot (prefixo-novo)
-• ${prefix}Bcgp (TM-PRA-PV-MEMBROS)
 • ${prefix}Antipv
 
 ──────────────────────────────
@@ -391,35 +343,13 @@ Usuário: @${sender.split("@")[0]}
 
 **Brincadeiras com Marcações:**
 
-• ${prefix}Casal (marca (@))
-• ${prefix}Gay (marca (@))
-• ${prefix}Feio (marca (@))
-• ${prefix}Corno (marca (@))
-• ${prefix}Vesgo (marca (@))
-• ${prefix}Bebado (marca (@))
-• ${prefix}Gostoso (marca (@))
-• ${prefix}Gostosa (marca (@))
-• ${prefix}Beijo (marca (@))
-• ${prefix}Matar (marca (@))
-• ${prefix}Tapa (marca (@))
-• ${prefix}Chute (marca (@))
-• ${prefix}Dogolpe (marca (@))
-• ${prefix}Nazista (marca (@))
-• ${prefix}Eununca
+*ESSE RECURSO FOI DESATIVADO AQUI*
+
 ──────────────────────────────
 
 **Rankings e Classificações:**
 
-• ${prefix}Chance (fale algo)
-• ${prefix}Casal
-• ${prefix}Rankgay
-• ${prefix}Rankgado
-• ${prefix}Rankcorno
-• ${prefix}Rankgostoso
-• ${prefix}Rankgostosa
-• ${prefix}Ranknazista
-• ${prefix}Rankotakus
-• ${prefix}Rankpau
+*ESSE RECURSO FOI DESATIVADO AQUI*
 
 ──────────────────────────────
 
@@ -446,12 +376,9 @@ Usuário: @${sender.split("@")[0]}
 
 • ${prefix}Legenda (marcar)-(img)
 • ${prefix}Procurado (marcar)-(img)
-• ${prefix}Hitler (marcar)-(img)
 • ${prefix}Preso (marcar)-(img)
-• ${prefix}Lixo (marcar)-(img)
 • ${prefix}Deletem (marcar)-(img)
 • ${prefix}Morto (marcar)-(img)
-• ${prefix}Lgbt (marcar)-(img)
 
 ──────────────────────────────
 
