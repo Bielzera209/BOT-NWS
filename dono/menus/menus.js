@@ -2,113 +2,87 @@ const menu = (prefix, NomeDoBot, sender) => {
   
 // NÃO APAGUE ESSE ${NickDono} nem 
 //${numerodn} nem ${NomeDoBot} nem ${prefix} só se quiser apagar completo, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.  
-  
-return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
-⎙*BEM VINDO AO CHEROKEE BOT 1.0*
+// VERSÃO FINAL REVISADA BY DAVE
+return `
 
-⬇️ Site: https://newschool.app 💜🐿️
+*★ 𝘽𝙀𝙈-𝙑𝙄𝙉𝘿𝙊 𝘼𝙊 𝘾𝙃𝙀𝙍𝙊𝙆𝙀𝙀 𝘽𝙊𝙏 ★*
 
-⎙ *FIGURINHAS*
+> Versão: 1.0
+> By: Dave | NewSchool | Gabs
+> Site: https://newschool.app
+
+📸 *»* 𝙁𝙄𝙂𝙐𝙍𝙄𝙉𝙃𝘼𝙎 *«*
 
 • ${prefix}s (marcar-foto)
 • ${prefix}f (marcar-foto)
+• ${prefix}pesquisafig (nome)
 • ${prefix}attp (texto)
-• ${prefix}attp2 (texto)
 • ${prefix}sticker (marcar-foto)
 • ${prefix}fsticker (marcar-foto)
-• ${prefix}toimg (marcar-figu)
-• ${prefix}togif (marcar-figu)
 • ${prefix}rename (text/text)
-• ${prefix}figgatos (fofin)
+• ${prefix}figgatos
+• ${prefix}emojimix (emoji+emoji)
 
+⏬ *»* 𝙋𝙀𝙎𝙌𝙐𝙄𝙎𝘼𝙎 𝙀 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿'𝙎 *«*
 
-⎙*PESQUISAS/BAIXAR*
-
-• ${prefix}Play (nome)
+• ${prefix}Play (nome da música)
 • ${prefix}Playdoc (nome)
-• ${prefix}Youtube (link)
-• ${prefix}Short (link)
-• ${prefix}Ytmp4 (link) 
-• ${prefix}Ytmp3 (link)
-• ${prefix}Ytsearch (nome) 
-• ${prefix}tiktok (link)
-• ${prefix}instagram (link)
+• ${prefix}YouTube (link do yt/short)
+• ${prefix}Short (link do short)
+• ${prefix}YTmp4 (link yt/short) 
+• ${prefix}YTmp3 (link yt/short)
+• ${prefix}YTSearch (nome) 
+• ${prefix}TikTok (link)
+• ${prefix}Instagram (link)
 • ${prefix}Reels (link do rell)
-• ${prefix}facebook (link)
-• ${prefix}twitter (link)
+• ${prefix}Facebook (link)
+• ${prefix}Twitter (link)
 • ${prefix}X (link) 
 • ${prefix}Soundcloud (link)
 • ${prefix}Spotify (link)
-• ${prefix}letramusica (nome da música)
-• ${prefix}playstore (newschool)
-• ${prefix}aptoide_pesquisa (newschool)
-• ${prefix}gerarlink (marcar)
-• ${prefix}amazon (produto)
-• ${prefix}Imgpralink (marcar img)
-• ${prefix}videopralink (marcar video) 
-• ${prefix}Wallpapers
+• ${prefix}Threads (link)
+• ${prefix}Kwai (link)
+• ${prefix}Letramusica (nome da música)
+• ${prefix}PlayStore (nome) 
 
+🕹️ *»* 𝙅𝙊𝙂𝙊𝙎/𝙌𝙐𝙄𝙕𝙕𝙀𝙎 *«*
 
-⎙*JOGOS/QUIZ*
+• ${prefix}PPT (Pedra/Papel/Tesoura) 
+• ${prefix}JogoDaVelha (@marcar) 
+• ${prefix}Falta
+• ${prefix}BaterFalta
+• ${prefix}Iniciar_Forca
+• ${prefix}JogoDaVelha (@marcar)
+• ${prefix}EuNunca
 
-• ${prefix}Ppt (PEDRA/PAPEL/TESOURA) 
-• ${prefix}Jogodavelha (@MARCAR) 
-• ${prefix}Roleta
-• ${prefix}tiro
-• ${prefix}falta
-• ${prefix}baterfalta
-• ${prefix}Morte
-• ${prefix}Simi (Oi) 
-• ${prefix}Nana (Oi) 
-• ${prefix}iniciar_forca
-• ${prefix}jogodavelha (@marcar)
-• ${prefix}Eununca
-
-
-
-⎙*FUTEBOL*
-
-• ${prefix}Tabela (20)
-• ${prefix}Partidas
-• ${prefix}Proxjogos
-• ${prefix}Palpites
-
-
-⎙*INFORMAÇÕES*
+ℹ️ *»* 𝙄𝙉𝙁𝙊'𝙎 *«*
 
 • ${prefix}Ping
 • ${prefix}Atividade
-• ${prefix}Rankativo
-• ${prefix}Rankinativo
-• ${prefix}Checkativo (@marcar)
+• ${prefix}RankAtivo
+• ${prefix}RankInativo
+• ${prefix}CheckAtivo (@marcar)
 • ${prefix}Celular (modelo)
-• ${prefix}Dolarhoje
-• ${prefix}Eurohoje
+• ${prefix}DolarHoje
+• ${prefix}EuroHoje
 • ${prefix}Converter (Dolar/Euro + valor)
-• ${prefix}Noticias
-• ${prefix}Manchetes
 • ${prefix}Clima (cidade)
-• ${prefix}Signo
+• ${prefix}Signo (nome do signo)
 • ${prefix}moedas
 
+📲 *»* 𝘿𝙄𝙑𝙀𝙍𝙎𝙊𝙎 𝙈𝙀𝙉𝙐𝙎 *«*
 
-⎙*DIVERSOS MENUS*
-
-• ${prefix}Reportar (marcar msg)
-• ${prefix}Menuadm
-• ${prefix}Efeitosimg
-• ${prefix}Logos
-• ${prefix}sfundo (marcar ft)
+• ${prefix}Reportar (Marcar Msg)
+• ${prefix}MenuAdm
+• ${prefix}Brincadeiras
+• ${prefix}Aplicativo
 • ${prefix}Noticias
-• ${prefix}Gtts (pt + texto)
-• ${prefix}Falar (pt + texto)
-• ${prefix}Transcrever (marcar áudio/vídeo)
-• ${prefix}Lerfoto (marcar ft)
-• ${prefix}hidetag (marcar algo) 
-• ${prefix}Conselhobiblico
-• ${prefix}Perfil
+• ${prefix}Transcrever (Marcar Áudio/Vídeo)
+• ${prefix}hidetag (Marcar algo) 
+• ${prefix}ConselhoBiblico
 • ${prefix}Calcular 1 + 1
-• ${prefix}Anotações
+• ${prefix}FazerNick
+• ${prefix}Metadinha
 `;
 };
 
@@ -118,72 +92,60 @@ const adms = (prefix, sender) => {
  
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa. 
 
-return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+return `
 
 ──────────────────────────────
 
-🛠 **MENU DE ADMS** 🛠
+🛠️ *»* 𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝘿𝙈𝙎 *«*
 
-Usuário: @${sender.split("@")[0]}
+User: @${sender.split("@")[0]}
 
 ➡️ Use ${prefix}info nome do comando para obter informações detalhadas sobre um comando.
 
 ──────────────────────────────
 
-**Configurações Gerais:**
+⚙️ *»* 𝘾𝙊𝙉𝙁𝙄𝙂'𝙎 *«*
 
-• ${prefix}sorteio
-• ${prefix}atividades
-• ${prefix}multiprefixo
-• ${prefix}duelo
-• ${prefix}Bloqcmd (comando)
-
-──────────────────────────────
-
-**Gerenciamento de Membros:**
-
-• ${prefix}listanegra (número)
-• ${prefix}ban ( @usu ou responder a mensagem)
-• ${prefix}promover [@] (Promover a Adm)
+• ${prefix}Sorteio
+• ${prefix}Atividades
+• ${prefix}MultiPrefixo
+• ${prefix}Duelo
+• ${prefix}BloqCMD (comando)
 
 ──────────────────────────────
 
-**Configurações do Grupo:**
+📃 *»* 𝙂𝙀𝙍𝙀𝙉𝘾𝙄𝘼𝙈𝙀𝙉𝙏𝙊 𝘿𝙀 𝙈𝙀𝙈𝘽𝙍𝙊𝙎 *«*
 
-• ${prefix}grupo
-• ${prefix}status
-• ${prefix}linkgp
-• ${prefix}grupoinfo
-• ${prefix}descgp (txt)
-• ${prefix}nomegp (nome)
-• ${prefix}legenda_estrangeiro (msg)
-• ${prefix}legenda_listanegra (msg)
+• ${prefix}ListaNegra (número)
+• ${prefix}Ban ( @usu ou responder a mensagem)
+• ${prefix}Promover [@] (Promover a Adm)
 
 ──────────────────────────────
 
-**Comandos de Marcação:**
+⚒️ *»* 𝘾𝙊𝙉𝙁𝙄𝙂'𝙎 𝘿𝙊 𝙂𝙍𝙐𝙋𝙊 *«*
+
+• ${prefix}Grupo
+• ${prefix}Status
+• ${prefix}LinkGP
+• ${prefix}DescGP (txt)
+• ${prefix}NomeGP (nome)
+• ${prefix}Legenda_ListaNegra (msg)
+
+──────────────────────────────
+
+🔊 *»* *_CMD'S DE MARCAÇÕES_* *«*
 
 • ${prefix}Marcar (marca todos do GP)
-• ${prefix}Marcar2 (marca todos Wa.me/)
-• ${prefix}Hidetag (txt) (marcação)
-• ${prefix}Ausente (fale oq faz ou o que vai fazer)
-• ${prefix}Ativo (Desativa o ausente)
+• ${prefix}HideTag (txt) (marcação)
 
 ──────────────────────────────
 
-**Anti-Spam e Palavras:**
+🚫 *»* 𝘼𝙉𝙏𝙄𝙎𝙋𝘼𝙈 *«*
 
-• ${prefix}limitarcomando
-• ${prefix}tempocmd
-• ${prefix}antipalavra
-• ${prefix}limpar (texto invisível GP)
-
-──────────────────────────────
-
-**Tabelas e Notas:**
-
-• ${prefix}anotações
-• ${prefix}tabelagp
+• ${prefix}LimitarComando
+• ${prefix}TempoCMD
+• ${prefix}AntiPalavra
+• ${prefix}Limpar (texto invisível GP)
 
 ──────────────────────────────
 `;
@@ -195,40 +157,24 @@ const menudono = (prefix, sender) => {
 	
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode alterar ele tod0, menos as definições, só se quiser apagar a definição completa. 	
 
-return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+return `
 
 ──────────────────────────────
 
-🔐 MENU DE DONO 🔐
+👑 *»* 𝙈𝙀𝙉𝙐 𝘿𝙊𝙉𝙊 *«*
 
-Usuário: @${sender.split("@")[0]}
+User: @${sender.split("@")[0]}
 
 ➡️ Use ${prefix}info [nome do comando] para obter informações detalhadas sobre um comando.
 
 ──────────────────────────────
 
-**Configurações:**
+⚙️ *»* 𝘾𝙊𝙉𝙁𝙄𝙂'𝙎 𝘾𝙈𝘿 *«*
 
-• ${prefix}Configurar-bot
-
-──────────────────────────────
-
-**Comandos de Configuração:**
-
-• ${prefix}Limitecaracteres
-• ${prefix}Rgtm
-• ${prefix}ListanegraG (número que saiu)
-• ${prefix}Bemvindo
-• ${prefix}Ativacoes_dono
-• ${prefix}Bangp
-• ${prefix}Fotomenu (marcar imagem) 
-• ${prefix}Bloqcmdg (comando)
-• ${prefix}Listagp
-• ${prefix}Antiligar
-• ${prefix}Ausente (fale oq faz ou o que vai fazer)
-• ${prefix}Bloquear [@] (bloq de usar cmds) 
-• ${prefix}Prefixo-bot (prefixo-novo)
-• ${prefix}Antipv
+• ${prefix}LimiteCaracteres
+• ${prefix}Ativacoes_Dono
+• ${prefix}FotoMenu (marcar imagem) 
+• ${prefix}AntiLigar
 
 ──────────────────────────────
 
@@ -242,17 +188,17 @@ const menulogos = (prefix, sender) => {
   
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa.  
   
-return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+return `
 
 ──────────────────────────────
 
-MENU DE LOGOS 🎨
+🎨 *»* 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙇𝙊𝙂𝙊𝙎 *«*
 
-Usuário: @${sender.split("@")[0]}
+User: @${sender.split("@")[0]}
 
 🔤 Logos de 1 Texto 🔤
 
-• ${prefix}logos1 (txt)
+• ${prefix}Logos1 (txt)
 
 ──────────────────────────────
 `;
@@ -268,33 +214,33 @@ return`
 
 ──────────────────────────────
 
-🎥 **Alteradores de Áudio/Vídeo** 🎤
+🎥 *»* 𝘼𝙇𝙏𝙀𝙍𝙉𝘼𝘿𝙊𝙍𝙀𝙎 𝘿𝙀 𝙑𝙊𝙕/𝙑𝙄𝘿𝙀𝙊 *«*
 
-Usuário: @${sender.split("@")[0]}
-
-──────────────────────────────
-
-🎬 **Alterar Vídeos** 🎬
-
-• ${prefix}Videolento (marca)
-• ${prefix}Videorapido (marca)
-• ${prefix}Videocontrario (marca)
+User: @${sender.split("@")[0]}
 
 ──────────────────────────────
 
-🔊 **Alterar Áudios** 🔊
+🎬 *»* 𝘼𝙇𝙏𝙀𝙍𝘼𝙍 𝙑𝙄𝘿𝙀𝙊𝙎 *«*
 
-• ${prefix}Audiolento (marca)
-• ${prefix}Audiorapido (marca)
-• ${prefix}Grave (marca)
-• ${prefix}Grave2 (marca)
-• ${prefix}Esquilo (marca)
-• ${prefix}Estourar (marca)
-• ${prefix}Bass (marca)
-• ${prefix}Bass2 (marca)
-• ${prefix}Vozmenino (marca)
-• ${prefix}Audioreverse (marca)
-• ${prefix}Paraaudio (marca o video)
+• ${prefix}VideoLento (marcar)
+• ${prefix}VideoRapido (marcar)
+• ${prefix}VideoContrario (marcar)
+
+──────────────────────────────
+
+🔊 *»* 𝘼𝙇𝙏𝙀𝙍𝘼𝙍 𝘼𝙐𝘿𝙄𝙊𝙎 *«*
+
+• ${prefix}AudioLento (marcar)
+• ${prefix}AudioRapido (marcar)
+• ${prefix}Grave (marcar)
+• ${prefix}Grave2 (marcar)
+• ${prefix}Esquilo (marcar)
+• ${prefix}Estourar (marcar)
+• ${prefix}Bass (marcar)
+• ${prefix}Bass2 (marcar)
+• ${prefix}VozMenino (marcar)
+• ${prefix}AudioReverse (marcar)
+• ${prefix}ParaAudio (marcar o video)
 
 ──────────────────────────────
 
@@ -313,12 +259,9 @@ return `
 
 💎 **Menu Premium** 💎
 
-Usuário: @${sender.split("@")[0]}
+User: @${sender.split("@")[0]}
 
-──────────────────────────────
-
-**Comandos Premium:**
-• ADICIONE SEUS COMANDOS PREMIUM / VEJA O ${prefix}infopremium
+Olá! Esse recurso foi desativado aqui...
 
 ──────────────────────────────
 
@@ -331,25 +274,15 @@ const brincadeiras = (prefix, sender) => {
 
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa. 
 
-return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+return `
 
 ──────────────────────────────
 
 🎉 **Menu de Brincadeiras** 🎉
 
-Usuário: @${sender.split("@")[0]}
+User: @${sender.split("@")[0]}
 
-──────────────────────────────
-
-**Brincadeiras com Marcações:**
-
-*ESSE RECURSO FOI DESATIVADO AQUI*
-
-──────────────────────────────
-
-**Rankings e Classificações:**
-
-*ESSE RECURSO FOI DESATIVADO AQUI*
+Olá! Esse recurso foi desativado aqui...
 
 ──────────────────────────────
 
@@ -362,23 +295,20 @@ const efeitos = (prefix, sender) => {
 
 // NÃO APAGUE ESSE ${prefix}, não coloque nada ${dentro assim} ISSO SÃO DEFINIÇÕES QUE ESTÁ PUXANDO DO settings.json, da pasta dono, só pode altera a base de tudo, menos as definições, só se quiser apagar a definição completa. 
 
-return `​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+return `
 
 ──────────────────────────────
 
-📸 **Menu de Efeitos** 📸
+📸 *»* 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙀𝙁𝙀𝙄𝙏𝙊𝙎 *«*
 
-Usuário: @${sender.split("@")[0]}
+User: @${sender.split("@")[0]}
 
 ──────────────────────────────
 
-**Efeitos em Imagens:**
+🖼️ *»* 𝙀𝙁𝙀𝙄𝙏𝙊𝙎 𝙀𝙈 𝙄𝙈𝘼𝙂𝙀𝙉𝙎 *«*
 
-• ${prefix}Legenda (marcar)-(img)
 • ${prefix}Procurado (marcar)-(img)
 • ${prefix}Preso (marcar)-(img)
-• ${prefix}Deletem (marcar)-(img)
-• ${prefix}Morto (marcar)-(img)
 
 ──────────────────────────────
 
@@ -387,4 +317,4 @@ Usuário: @${sender.split("@")[0]}
 
 module.exports = {
 menu, adms, menudono, menulogos, alteradores, menuprem, brincadeiras, efeitos
-}
+		      }
